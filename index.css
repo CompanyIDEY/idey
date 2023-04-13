@@ -1,0 +1,314 @@
+/*
+
+fondo #363537
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    background-color: rgb(39, 39, 37);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    width: 100%;
+    position: fixed;
+    padding-bottom: 10px;
+    background-color: #363537;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.logo img {
+    width: 200px;
+}
+.padding {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.landing {
+    width: 100%;
+    height: 100vh;
+    padding-top: 130px;
+}
+.titulo h1 {
+    text-align: center;
+    text-transform: uppercase;
+    line-height:30px;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 5px;
+    color: #c89933;
+}
+.titulo p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: #74526c;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img {
+    width: 450px;
+}
+.contacto {
+    background-color: #c89933;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contacto h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: rgb(39, 39, 37);
+}
+.contacto p {
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+}
+.contacto .enlaces {
+    padding-top: 20px;
+    line-height: 50px;
+}
+.contacto .instagram {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 30px;
+    background-color: #74526c;
+}
+.contacto .correo {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 30px;
+    background-color: #dbd053;
+}
+.footer {
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: #363537;
+}
+.titulo-footer h1{
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height:30px;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 50px;
+    color: #c89933;
+}
+.titulo-footer li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+.titulo-footer a {
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+.profile {
+    padding-top: 50px;
+    background-color: #5c415d;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.titulo-profile h1 {
+    text-align: center;
+    text-transform: uppercase;
+    line-height:30px;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 50px;
+    color: #c89933;
+}
+.idey-color {
+    color: #fff;
+}
+.bio p {
+    padding-top: 30px;
+    text-align-last: justify-right;
+    text-transform: uppercase;
+    line-height:30px;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 50px;
+    color: #c89933;
+
+}
+.bio .picture {
+    border-radius: 100%;
+    width: 200px;
+    box-shadow: 15px 15px 1px 5px #c89933;
+}
+.CEO {
+    text-align: center;
+    color: #fff;
+}
+@media only screen and (max-width: 800px) {
+    .nav {
+        padding-left: 20px;
+    }
+    .padding {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .landing {
+        width: 100%;
+        height: 100vh;
+        padding-top: 130px;
+    }
+    .titulo h1 {
+        text-align: center;
+        text-transform: uppercase;
+        line-height:30px;
+        font-family: 'Kanit', sans-serif;
+        padding-bottom: 5px;
+        color: #c89933;
+    }
+    .titulo p {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+        color: #74526c;
+    }
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    img {
+        width: 450px;
+    }
+    .contacto {
+        background-color: #c89933;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .contacto h1 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+        color: rgb(39, 39, 37);
+    }
+    .contacto p {
+        text-transform: uppercase;
+        font-size: 10px;
+        text-align: center;
+    }
+    .contacto .enlaces {
+        padding-top: 20px;
+        line-height: 50px;
+    }
+    .contacto .instagram {
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Kanit', sans-serif;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #fff;
+        padding-right: 30px;
+        background-color: #74526c;
+    }
+    .contacto .correo {
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Kanit', sans-serif;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #fff;
+        padding-right: 30px;
+        background-color: #dbd053;
+    }
+    .footer {
+        padding-bottom: 50px;
+        width: 100%;
+        background-color: #363537;
+    }
+    .titulo-footer h1{
+        padding-top: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height:30px;
+        font-family: 'Kanit', sans-serif;
+        padding-bottom: 50px;
+        color: #c89933;
+    }
+    .titulo-footer li {
+        list-style: none;
+        padding-bottom: 10px;
+    }
+    .titulo-footer a {
+        font-family: 'Kanit', sans-serif;
+        text-decoration: none;
+        color: #fff;
+    }
+    .profile {
+        padding-top: 50px;
+        background-color: #5c415d;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .titulo-profile h1 {
+        text-align: center;
+        text-transform: uppercase;
+        line-height:30px;
+        font-family: 'Kanit', sans-serif;
+        padding-bottom: 50px;
+        color: #c89933;
+    }
+    .idey-color {
+        color: #fff;
+    }
+    .bio p {
+        padding-top: 30px;
+        text-align-last: justify-right;
+        text-transform: uppercase;
+        line-height:30px;
+        font-family: 'Kanit', sans-serif;
+        padding-bottom: 50px;
+        color: #c89933;
+
+    }
+    .bio .picture {
+        border-radius: 100%;
+        width: 200px;
+        box-shadow: 15px 15px 1px 5px #c89933;
+    }
+    .CEO {
+        text-align: center;
+        color: #fff;
+    }
+}
